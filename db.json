@@ -1,6 +1,7 @@
-[
-
 {
+  "posts": [
+      {
+          "id" : 1,
     "name": "sushant",
     "email": "a@gmail.com",
     "gender": "male",
@@ -8,4 +9,21 @@
     "maritalStstatus": "Single",
     "description": "hi"
 }
-]
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
